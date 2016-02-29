@@ -58,6 +58,7 @@ public class TextSecurePreferences {
   private static final String PASSPHRASE_TIMEOUT_PREF          = "pref_timeout_passphrase";
   public  static final String SCREEN_SECURITY_PREF             = "pref_screen_security";
   private static final String ENTER_SENDS_PREF                 = "pref_enter_sends";
+  private static final String TEXT_WRAP_PREF                   = "pref_text_wrap";
   private static final String ENTER_PRESENT_PREF               = "pref_enter_key";
   private static final String SMS_DELIVERY_REPORT_PREF         = "pref_delivery_report_sms";
   public  static final String MMS_USER_AGENT                   = "pref_mms_user_agent";
@@ -243,6 +244,10 @@ public class TextSecurePreferences {
 
   public static boolean isEnterSendsEnabled(Context context) {
     return getBooleanPreference(context, ENTER_SENDS_PREF, false);
+  }
+
+  public static boolean isTextWrapEnabled(Context context) {
+    return getBooleanPreference(context, TEXT_WRAP_PREF, false);
   }
 
   public static boolean isPasswordDisabled(Context context) {

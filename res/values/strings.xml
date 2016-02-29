@@ -952,6 +952,8 @@
     <string name="preferences__replace_smiley_with_enter_key">Replace the smiley key with an Enter key</string>
     <string name="preferences__pref_enter_sends_title">Enter key sends</string>
     <string name="preferences__pressing_the_enter_key_will_send_text_messages">Pressing the Enter key will send text messages</string>
+    <string name="preferences__pref_text_wrap_title">Text wrap</string>
+    <string name="preferences__text_wraps_when_composing_a_message">Text wraps when composing a message</string>
     <string name="preferences__display_settings">Display settings</string>
     <string name="preferences__choose_identity">Choose identity</string>
     <string name="preferences__choose_your_contact_entry_from_the_contacts_list">Choose your contact entry from the contacts list.</string>
